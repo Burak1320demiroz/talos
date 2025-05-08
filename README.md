@@ -1,5 +1,7 @@
 # Şerit Tespiti (Lane Detection)
 
+## Buna Yolov10 mimarisi ile eğittiğim lane detection entegre edersem harika calışır gibi
+
 Bu proje, video üzerinde şerit tespiti yapan bir Python uygulamasıdır. OpenCV ve NumPy kütüphaneleri kullanılarak geliştirilmiştir.
 
 ## Ana Fonksiyonlar
