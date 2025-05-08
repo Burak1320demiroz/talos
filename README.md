@@ -4,9 +4,6 @@ Bu proje, video üzerinde şerit tespiti yapan bir Python uygulamasıdır. OpenC
 
 ## Ana Fonksiyonlar
 
-### `process_frame(frame)`
-Bu fonksiyon, her bir video karesini işleyerek şeritleri tespit eder. İşlem adımları:
-
 1. **Gri Tonlama**: Görüntüyü gri tonlamaya çevirir
 2. **Gaussian Blur**: Gürültüyü azaltmak için bulanıklaştırma uygular
 3. **Canny Kenar Tespiti**: Kenarları tespit eder
