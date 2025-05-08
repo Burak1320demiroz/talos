@@ -86,8 +86,6 @@ def process_frame(frame):
         # Eğer hiç çizgi yoksa, yine de boş line_image ile devam et
         pass
     
-    # —————————————————————————————————————————————————————————
-    # **EKLENECEK KISIM**: ROI köşe noktalarını işaretle
     for pt in vertices[0]:
         cv2.circle(
             frame,
@@ -96,13 +94,12 @@ def process_frame(frame):
             color=(0, 0, 255),    # Kırmızı nokta
             thickness=-1          # dolu daire
         )
-    # —————————————————————————————————————————————————————————
     
     # Sonucu birleştir ve döndür
     return cv2.addWeighted(frame, 0.8, line_image, 1, 0)
 
 # Video Kaynağı (Dosya yolu veya 0 for webcam)
-video_path = "Araba.mp4"  # Kendi videonuzun yolunu verin
+video_path = "Araba.mp4" 
 cap = cv2.VideoCapture(video_path)
 
 while cap.isOpened():
