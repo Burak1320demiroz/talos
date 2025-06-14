@@ -16,3 +16,5 @@
    - Tespit edilen şeritleri yeşil çizgilerle gösterir
    - Şeritler arası alanı yarı saydam mavi ile doldurur
    - ROI köşe noktalarını kırmızı noktalarla işaretler
+
+![lane](sonuclar/foto1.png)
